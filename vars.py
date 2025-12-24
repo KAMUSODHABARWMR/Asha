@@ -3,8 +3,8 @@
 import os
 from pymongo import MongoClient
 
-API_ID    = os.environ.get("API_ID", "")
-API_HASH  = os.environ.get("API_HASH", "")
+API_ID    = os.environ.get("API_ID", "21442913")
+API_HASH  = os.environ.get("API_HASH", "b95b8bae367e19c3356b9f0004b218c2")
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
 
 #WEBHOOK = True  # Don't change this
@@ -58,3 +58,4 @@ def get_all_user_ids():
 if __name__ == "__main__":
     save_user_id(123456789)
     print(get_all_user_ids())
+
